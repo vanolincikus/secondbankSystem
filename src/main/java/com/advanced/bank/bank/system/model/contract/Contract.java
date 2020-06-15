@@ -1,6 +1,6 @@
-package com.advanced.bank.bank.system.model;
+package com.advanced.bank.bank.system.model.contract;
 
-import com.advanced.bank.bank.system.model.enums.ContractType;
+import com.advanced.bank.bank.system.model.Account;
 
 import java.time.Instant;
 
@@ -10,7 +10,7 @@ public class Contract {
     private Account account;
     private Instant expiresOn;
     private Instant dateCreated;
-    private ContractDetails contractDetails;
+    private ContractDetails contractDetails = new ContractDetails();
 
     public Long getId() {
         return id;
