@@ -5,6 +5,7 @@ import com.advanced.bank.bank.system.model.enums.CardType;
 import java.time.Instant;
 
 public class PhysicalCard {
+
     private Long id;
     private Integer cardNumber;
     private CardType cardType = CardType.NONE;

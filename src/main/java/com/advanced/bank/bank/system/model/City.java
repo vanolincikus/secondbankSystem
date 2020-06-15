@@ -1,6 +1,7 @@
 package com.advanced.bank.bank.system.model;
 
 public class City {
+
     private Long id;
     private String name;
     private String postCode;

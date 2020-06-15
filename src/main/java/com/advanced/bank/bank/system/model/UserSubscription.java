@@ -4,9 +4,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class UserSubscription {
+
     private Long id;
     private Set<Feature> features = new HashSet<>();
-    private Set<FeaturePackage> featurePackages= new HashSet<>();
+    private Set<FeaturePackage> featurePackages = new HashSet<>();
     private Account account;
 
     public Long getId() {

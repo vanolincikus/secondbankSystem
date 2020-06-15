@@ -1,6 +1,7 @@
 package com.advanced.bank.bank.system.model;
 
 public class Currency {
+
     private Long id;
     private String name;
     private String iso2;
@@ -43,3 +44,4 @@ public class Currency {
         this.multiplier = multiplier;
     }
 }
+

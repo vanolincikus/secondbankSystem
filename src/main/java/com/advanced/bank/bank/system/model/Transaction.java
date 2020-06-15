@@ -5,6 +5,7 @@ import com.advanced.bank.bank.system.model.enums.TransactionStatus;
 import java.time.Instant;
 
 public class Transaction {
+
     private Long id;
     private Account sender;
     private Account receiver;
