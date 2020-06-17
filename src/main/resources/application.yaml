@@ -1,6 +1,8 @@
 server:
   port: 8080
+
 spring:
+
   datasource:
     url: jdbc:postgresql://localhost:5432/bank_system
     username: postgres
@@ -8,6 +10,14 @@ spring:
     hikari:
       maximumPoolSize: 15
   jpa:
-    show_sql: true
-    format_sql: true
-    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    hibernate:
+      temp:
+        use_jbdc_metadata_defaults: false
+      jdbc:
+        time_zone: UTC
+      show_sql: true
+      format_sql: true
+      hbm2ddl:
+        auto: update
+  database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+
