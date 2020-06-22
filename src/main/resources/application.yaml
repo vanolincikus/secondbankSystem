@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/bank_system
     username: postgres
-    password: postgres
+    password: admin
     hikari:
       maximumPoolSize: 15
   jpa:
