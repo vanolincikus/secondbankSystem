@@ -10,7 +10,6 @@ import javax.persistence.Entity;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-@EntityScan(basePackages = {"package com.advanced.bank.bank.system.model"})
 public class BankSystemApplication {
 
 	public static void main(String[] args) {
